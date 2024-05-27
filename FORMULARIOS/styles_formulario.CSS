@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: #0462;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0487;
+}
+
+header i {
+    color: #044;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul li a {
+    color: #909;
+    text-decoration: none;
+}
+
+a {
+    color: #909;
+}
+
+.general{position: relative;}
+
+footer {
+    display: flex;
+    background-color: #0483;
+    width: 100%;
+    height: 5%;
+    margin-top: 10%;
+    position:fixed;
+    bottom: 0;
+}
+
+                    /*DE ACA PARA ABAJO ES EL CSS COPIADO DE LA WEB*/       
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #909;
+    text-align: center;
+    }
+    
+    .container {
+    max-width: 300px; /* Define el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    padding: 1%; /* Agrega un poco de espacio alrededor del formulario */    /*CAMBIOS*/
+    border-radius: 5px 50px; /* Agrega bordes redondeados al contenedor */
+    background-color: #0483;  
+    text-align: center;                /*AGREGADO MIO*/
+    box-shadow:5px 5px 7px  #000 ;
+    }
+    .form-group {
+    margin: 5px; /* Espacio entre cada input */
+    padding: 10px;
+    display: flex;
+        align-items: flex-start; /* Alinea los elementos al inicio del eje vertical */    /*******AGREGADO MIO****/
+        justify-content: space-around; /* Alinea los elementos al inicio del eje horizontal */                  /*******AGREGADO MIO****/
+    }
+    #nombre{margin-left: -20px;}
+    #email{margin-left: -5px;
+    }
+    /* label {
+    margin-bottom: 5px; }                                       /*CAMBIOS*/
+
+input{border: none;}                    /*CAMBIOS*/
+    /*input[type="text"],
+    input[type="email"], */
+    textarea {                                                  /*CAMBIOS*/
+    /* width: XX; /* Define el ancho máximo del input */
+    padding: 8px; 
+    border:  none;
+    border-radius: 4px;
+    }    
+    /*textarea {
+    resize:vertical;} /* Permite redimensionar verticalmente el textarea */             /*CAMBIOS*/
+
+    .container form button {            /* Coloca estilos a tu botón */
+    background-color: #9095;
+    border-radius: 5px;
+    border: 1PX solid #000;   /*AGREGADO MIO*/
+    color: #000;
+    font-weight: bold ;
+}
+    /*button:hover {
+    background-color: #0056b3;}                          /*CAMBIOS*/
+
+
+    .container2{
+        width:200px;
+        height:300px;
+        background-color: #0483;
+        margin:10% auto;
+        margin-top: 5%;
+        border-radius: 10px;
+        box-shadow:5px 5px 7px  #000 ;
+
+    }
+    .container2 h2{
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px  1px 30px red;
+    }
+    .container2 input{
+        text-align: center;
+        display: flex;           
+        margin:  auto;
+        border-radius: 8px;
+        border: solid 1px #000;
+        height: 25px;
+    }
+    .container2 img{
+        width: 150px;
+        display: flex;
+        margin: auto;
+        margin-top: 10%;
+        border-radius: 5%  50% ;
+
+    }

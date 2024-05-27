@@ -1,0 +1,80 @@
+body {
+    background-color: #2221;
+    margin: 5% 5% 5% 10%;
+}
+
+.rayo {
+    font-size: 50px;
+    color: #222c;
+}
+a{
+    color: #222c;
+}
+
+/* #chek{
+    display: none;
+} */
+.checkbtn {
+    cursor: pointer;
+} 
+
+.gral {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenido {
+    margin: 5% 20% 5% 5%
+}
+
+.texto {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222e;
+}
+
+footer{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2228;
+    gap: 20px;
+}
+
+@media (max-width:768px)
+    {
+    .gral {
+    flex-direction: column;
+    margin-bottom:20%;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+    }
+img{max-height: 1600px;
+}
+.rayo{
+    display: flex;
+    justify-items:flex-start;
+    margin-left: 10%;
+}
+.titulo {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenido{
+  margin:10%
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;}
+}

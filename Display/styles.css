@@ -1,0 +1,18 @@
+.cuadrado{background-color: red;
+width: 50px;
+height: 50px;
+display: inline;
+/*margin: 10px;
+padding: 10px;
+border: 10 ;*/
+}
+
+p{background-color: yellow;
+display:inline-block;
+
+}
+
+a{background-color: aquamarine;
+    width: 16PX;
+    height: 16PX;
+display: block;}
